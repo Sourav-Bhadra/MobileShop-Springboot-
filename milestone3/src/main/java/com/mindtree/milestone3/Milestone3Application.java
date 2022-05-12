@@ -34,6 +34,7 @@ public class Milestone3Application implements CommandLineRunner{
 		Mobiles.add(Mobile3);
 		brand.setMobiles(Mobiles);
 		service.createBrand(brand);
+		System.out.println("command line runner");
 		
 	}
 
